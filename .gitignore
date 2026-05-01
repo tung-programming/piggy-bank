@@ -1,0 +1,27 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Anchor
+.anchor/
+test-ledger/
+
+# Node
+node_modules/
+.yarn/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Env
+.env
+*.env
+
+# Keypairs - NEVER commit these
+test-keypair.json
